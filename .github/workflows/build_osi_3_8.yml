@@ -33,7 +33,7 @@ jobs:
       env:
         BUILD_TYPE: ${{ matrix.build_type }}
         PROTOBUF_SHARED: ${{ matrix.protobuf_shared }}
-      run: ${{ matrix.os == 'ubuntu-22.04' && 'xvfb-run ' || '' }}./generate_osi_3_8_libs.sh
+      run: ${{ matrix.os == 'ubuntu-22.04' && 'xvfb-run ' || '' }}./osi/generate_osi_3_8_libs.sh
 
     - name: Bundle platform package
       shell: bash
