@@ -36,6 +36,6 @@ jobs:
           body: |
             Binaries for ${{ github.ref_name }} and its dependencies.
 
-            For information about changes and new features see [release_notes](https://github.com/slundel6/esmini-dependencies/blob/master/release_notes.md).
+            For information about changes and new features see [release notes](https://github.com/slundel6/esmini-dependencies/blob/master/release_notes.md).
           files: staging/*.tar.xz
           fail_on_unmatched_files: true
